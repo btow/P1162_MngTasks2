@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.samsung.p1162_mngtasks2">
 
+    <!--suppress DeprecatedClassUsageInspection -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
