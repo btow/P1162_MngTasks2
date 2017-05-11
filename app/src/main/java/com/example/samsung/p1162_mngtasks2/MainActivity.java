@@ -49,9 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
             case R.id.btnStart :
-                //noinspection deprecation
                 startActivity(new Intent("mngtasks1_activity_c")
-                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET));
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK));
                 break;
             default :
                 break;
