@@ -2,4 +2,15 @@
     <string name="app_name">P1162_MngTasks2</string>
     <string name="start">Start</string>
     <string name="info">Info</string>
+    <string name="the_mode_difaind_on_flag">The mode difaind on flag:</string>
+    <string-array name="data">
+        <item name="0">FLAG_ACTIVITY_NEW_TASK</item>
+        <item name="1">FLAG_ACTIVITY_SINGLE_TOP</item>
+        <item name="2">FLAG_ACTIVITY_CLEAR_TOP</item>
+        <item name="3">FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET</item>
+        <item name="4">FLAG_ACTIVITY_NO_HISTORY</item>
+        <item name="5">FLAG_ACTIVITY_REORDER_TO_FRONT</item>
+        <item name="6">FLAG_ACTIVITY_CLEAR_TASK</item>
+        <item name="7">FLAG_ACTIVITY_TASK_ON_HOME</item>
+    </string-array>
 </resources>
