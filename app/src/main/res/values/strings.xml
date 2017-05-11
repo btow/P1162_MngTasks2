@@ -12,5 +12,7 @@
         <item name="5">FLAG_ACTIVITY_REORDER_TO_FRONT</item>
         <item name="6">FLAG_ACTIVITY_CLEAR_TASK</item>
         <item name="7">FLAG_ACTIVITY_TASK_ON_HOME</item>
+        <item name="8">FLAG_ACTIVITY_CLEAR_TASK | FLAG_ACTIVITY_NEW_TASK</item>
+        <item name="9">FLAG_ACTIVITY_TASK_ON_HOME | FLAG_ACTIVITY_NEW_TASK</item>
     </string-array>
 </resources>

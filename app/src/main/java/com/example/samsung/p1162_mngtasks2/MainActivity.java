@@ -92,6 +92,16 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent("mngtasks1_activity_c")
                                 .addFlags(Intent.FLAG_ACTIVITY_TASK_ON_HOME));
                         break;
+                    case 8:
+                        startActivity(new Intent("mngtasks1_activity_c")
+                                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                        break;
+                    case 9:
+                        startActivity(new Intent("mngtasks1_activity_c")
+                                .addFlags(Intent.FLAG_ACTIVITY_TASK_ON_HOME)
+                                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                        break;
                     default:
                         break;
                 }
